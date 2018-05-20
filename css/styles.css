@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "Times new roman", serif, arial;
+  background: #353535;
+}
+
+.card-layout {
+  width: 300px;
+  height: 550px;
+  margin-left: 1000px;
+  margin: 60px auto;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: -10px 10px 1px rgba(0,0,0,0.3);
+}
+
+.card-top {
+  position: relative;
+  height: 250px;
+  background: linear-gradient(135deg, #cce6ff 10%, #ff9933 83%);
+  border-radius: 25px 25px 0 0;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+
+.image {
+  position: absolute;
+  left: 0;
+  margin-top: -30px;
+  margin-left: 80px;
+  width: 300px;
+  opacity: .6;
+  border: 5px;
+}
+
+.image:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+#title {
+    display: inline-block;
+    text-transform: capitalize;
+    text-shadow: 2px 3px GhostWhite;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.interesting-fact {
+  font-style: italic;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-bottom: 60px;
+  margin-top: -90px;
+}
+
+.card-bottom {
+  position: relative;
+  height: 300px;
+  background: #fff;
+  border-radius: 0 0 25px 25px;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+
+.label {
+  font-weight: bold;
+  margin-left: -15px;
+}
+
+#list {
+  list-style-type: none;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 40px;
+  padding-bottom: 15px;
+}
+
+.brief-description {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 15px;
+}
